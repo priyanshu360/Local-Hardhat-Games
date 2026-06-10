@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2020",
+    "moduleDetection": "force"
+  },
+  "include": ["scripts/**/*.js", "hardhat.config.js", "types/**/*.d.ts"]
+}
